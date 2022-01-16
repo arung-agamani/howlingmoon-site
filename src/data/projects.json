@@ -12,5 +12,12 @@
         "description": "Probably the very thing that can depict how wild internet could be.\nInside lies various templates of copypasta, whether it's normal, weird, or outright cursed. Comes with fields to fill out your wildest imaginations and also editor to add new templates easily",
         "image": "https://howling-blog-uploads.s3.ap-southeast-1.amazonaws.com/2022/1/16/chrome_TLT1RsbVST.png",
         "link": "https://wangy.howlingmoon.dev"
+    },
+    {
+        "title": "Arknights Data Explorer",
+        "subtitle": "React, TailwindCSS, PostgreSQL, Express.js",
+        "description": "A side project to create a data explorer on the game Arknights. ",
+        "image": "https://howling-blog-uploads.s3.ap-southeast-1.amazonaws.com/2022/1/16/chrome_iSrbnEYVDL.png",
+        "link": "https://ark.howlingmoon.dev"
     }
 ]

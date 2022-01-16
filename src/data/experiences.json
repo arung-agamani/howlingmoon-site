@@ -1,6 +1,6 @@
 [
     {
-        "title": "Web Development 1",
+        "title": "Web Development",
         "description": "Started as a bot developer, I constantly expanding my skillset both in backend development and frontend development. Here are several of tech stacks I excel at.",
         "sections": [
             {
@@ -55,7 +55,8 @@
                     "Certification on \"Architecting on AWS\", received on 4 June, 2021",
                     "Certification on \"Developing on AWS\", received on 16 June, 2021",
                     "Certification on \"Advanced Developing on AWS\", received on 28 July, 2021",
-                    "Basic Knowledge on Azure Web Services"
+                    "Basic Knowledge on Azure Web Services",
+                    "DigitalOcean, Vultr, and others..."
                 ]
             }
         ]
@@ -96,6 +97,35 @@
                 ]
             }
 
+        ]
+    },
+    {
+        "title": "Game Development",
+        "description": "As it goes hand-in-hand with my interest in computer graphics, I also make games in my free time, but also involved in projects as a freelancer.",
+        "sections": [
+            {
+                "title": "Past Experiences",
+                "items": [
+                   "Proficiency in working with Unity to create 2D and 3D games",
+                   "Applying widely used alrogithms for optimization",
+                   "Working with shaders and writing shaders using GLSL or HLSL"
+
+                ]
+            }
+
+        ]
+    },
+    {
+        "title": "Mobile App Development",
+        "description": "Once involved in commercial project for making a mobile app, I have taken interest in creating one for myself and possibly for people who need.",
+        "sections": [
+            {
+                "title": "Past Experiences",
+                "items": [
+                    "Creating a prototype fitness app using Android Studio, Java, and Kotlin",
+                    "Creating an e-commerce app using React Native"
+                ]
+            }
         ]
     }
 ]

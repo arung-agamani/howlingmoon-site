@@ -4,6 +4,16 @@ import ScrollAnimation from "react-animate-on-scroll"
 import experiencesData from '../../data/experiences.json'
 
 const Experiences: React.FC = () => {
+    function accordionTitle(title: string) {
+        return (
+            <div className="flex w-full" style={{ alignItems: 'flex-end'}}>
+                <div className="flex-grow-0"><p className="text-left">{title}</p></div>
+                <div className="flex-grow"></div>
+                <div className="flex-grow-0 animate-pulse text-sm text-right"><p>{window.innerWidth <= 320 ? 'Touch' : 'Click'} Me!</p></div>
+            </div>
+        )
+    }
+
     return (
         <section id="experiences">
             <div className="container px-5 py-10 mx-auto text-center lg:px-40">
@@ -23,7 +33,7 @@ const Experiences: React.FC = () => {
                             {experiencesData.map((exp, idx) => {
                                 if (idx % 2 != 0) return;
                                 return (
-                                    <Accordion title={<p>{exp.title}</p>} className="px-2 py-2">
+                                    <Accordion title={accordionTitle(exp.title)} className="px-2 py-2">
                                         <div>
                                             <p className="pb-2 text-black px-2 text-justify">{exp.description}</p>
                                             {exp.sections.map(sect => <>
@@ -42,7 +52,7 @@ const Experiences: React.FC = () => {
                             {experiencesData.map((exp, idx) => {
                                 if (idx % 2 == 0) return;
                                 return (
-                                    <Accordion title={<p>{exp.title}</p>} className="px-2 py-2">
+                                    <Accordion title={accordionTitle(exp.title)} className="px-2 py-2">
                                         <div>
                                             <p className="pb-2 text-black px-2 text-justify">{exp.description}</p>
                                             {exp.sections.map(sect => <>
