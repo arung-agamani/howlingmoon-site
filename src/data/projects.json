@@ -7,17 +7,24 @@
         "link": "https://blog.howlingmoon.dev"
     },
     {
-        "title": "Wangy Generator",
-        "subtitle": "Golang, Svelte, and MongoDb",
-        "description": "Probably the very thing that can depict how wild internet could be.\nInside lies various templates of copypasta, whether it's normal, weird, or outright cursed. Comes with fields to fill out your wildest imaginations and also editor to add new templates easily",
-        "image": "https://howling-blog-uploads.s3.ap-southeast-1.amazonaws.com/2022/1/16/chrome_TLT1RsbVST.png",
-        "link": "https://wangy.howlingmoon.dev"
-    },
-    {
         "title": "Arknights Data Explorer",
         "subtitle": "React, TailwindCSS, PostgreSQL, Express.js",
         "description": "A side project to create a data explorer on the game Arknights. ",
         "image": "https://howling-blog-uploads.s3.ap-southeast-1.amazonaws.com/2022/1/16/chrome_iSrbnEYVDL.png",
         "link": "https://ark.howlingmoon.dev"
+    },
+    {
+        "title": "Youtube to MP3 Online Converter",
+        "subtitle": "React, Node.js, Express.js",
+        "description": "A simple application to download and convert Youtube videos into MP3 on server using Node.js. Client-server communication done through Websockets rather than REST.",
+        "image": "https://howling-blog-uploads.s3.ap-southeast-1.amazonaws.com/2022/1/17/chrome_7uDI5CvmfN.png",
+        "link": "https://ytdl.howlingmoon.dev"
+    },
+    {
+        "title": "Nekotora Web Torrent Seedbox",
+        "subtitle": "React, Node.js, Express.js, Webtorrent",
+        "description": "Another simple web application for leeching and seeding torrents through my own server. UI made using Material UI and torrent backend made using Webtorrent",
+        "image": "https://howling-blog-uploads.s3.ap-southeast-1.amazonaws.com/2022/1/17/nekotora.jpg",
+        "link": "https://nekotora.howlingmoon.dev"
     }
 ]

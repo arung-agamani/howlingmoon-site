@@ -6,7 +6,7 @@ import "animate.css/animate.min.css"
 const Projects: React.FC = () => {
     return (
         <section id="projects" className="text-gray-400 bg-gray-900">
-            <div className="container px-5 py-10 mx-auto text-center lg:px-40">
+            <div className="container px-5 py-10 pt-20 mx-auto text-center lg:px-40">
                 <ScrollAnimation animateIn='animate__fadeIn' animateOnce>
                     <div className="flex flex-col w-full mb-14">
                         <h1 className="sm:text-4xl text-3xl font-medium mb-4 text-white">
