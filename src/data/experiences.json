@@ -1,0 +1,101 @@
+[
+    {
+        "title": "Web Development 1",
+        "description": "Started as a bot developer, I constantly expanding my skillset both in backend development and frontend development. Here are several of tech stacks I excel at.",
+        "sections": [
+            {
+                "title": "Front End",
+                "items": [
+                    "React.js",
+                    "Svelte.js",
+                    "EJS",
+                    "TailwindCSS",
+                    "Proficiency with several build tools: Webpack, Vite, Rollup"
+                ]
+            },
+            {
+                "title": "Back End",
+                "items": [
+                    "Express.js",
+                    "Next.js",
+                    "Golang (Mux)",
+                    "Python (Flask)",
+                    "Java",
+                    "PHP"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "DevOps",
+        "description": "Working and maintaining servers are my daily activities. I have experience in working with various DevOps activities, from application level to infrastructure level.",
+        "sections": [
+            {
+                "title": "Managing Applications and Deployments",
+                "items": [
+                    "Managing CI/CD pipelines through GitLab, GitHub, and Buddy",
+                    "Applying monitoring tasks in apps deployed on Linux",
+                    "Automating tasks using BASH scripts",
+                    "Containerization through Docker"
+                ]
+            },
+            {
+                "title": "Managing Infrastructures",
+                "items": [
+                    "Load Balancing and Reverse-Proxy using NGINX",
+                    "DNS Records Management",
+                    "Automating infrastructure changes using Terraform",
+                    "Deploying applications to Kubernetes",
+                    "Architecting Kubernetes deployments using Helm"
+                ]
+            },
+            {
+                "title": "Working with Web Services",
+                "items": [
+                    "Certification on \"Architecting on AWS\", received on 4 June, 2021",
+                    "Certification on \"Developing on AWS\", received on 16 June, 2021",
+                    "Certification on \"Advanced Developing on AWS\", received on 28 July, 2021",
+                    "Basic Knowledge on Azure Web Services"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Computer Graphics",
+        "description": "I have great interest in working with computer graphics and have big interest of being involved in the industry. My experiences spans from programming field to content creation using various softwares",
+        "sections": [
+            {
+                "title": "Programming and Application Development",
+                "items": [
+                    "WebGL-based Prototype 2D CAD-tools, written in pure vanilla Javascript",
+                    "Accelerated Raytracer using C++ and CUDA SDK"
+                ]
+            },
+            {
+                "title": "Content Creation",
+                "items": [
+                    "Proficiency in using Autodesk Maya for 3D Modeling, Rigging, and Simulations",
+                    "Proficiency in using Autodesk Mudbox for 3D Sculpting and Texturing",
+                    "Procedural 3D VFX generation using Houdini",
+                    "Professional experience on creating motion graphics using Adobe After Effects",
+                    "Proficiency on other tools such as Adobe Photoshop, Adobe Premiere Pro, Krita, Blender, Inkscape."
+                ]
+            }
+        ]
+    },
+    {
+        "title": "AI, Machine Learning, and Deep Learning",
+        "description": "I have conducted, involved, and made various tasks related to the subject, both for a web application usage or for local machine running as a desktop application.",
+        "sections": [
+            {
+                "title": "Past Experiences",
+                "items": [
+                    "Creating a recommender system using Python and Sklearn for web application with Content-based approach",
+                    "Creating a Question-Answering system using PyTorch with Information-Retrieval System for efficient answer searching",
+                    "Proficiency in common Deep Learning, Machine Learning, and Artifical Intelligence tasks"
+                ]
+            }
+
+        ]
+    }
+]

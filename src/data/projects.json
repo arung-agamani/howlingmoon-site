@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Howling Blog",
+        "subtitle": "Next.js and MongoDB",
+        "description": "A personal blog written from scratch using Next.js and MongoDB for the database. Talks about things I do on programming and sometimes my hobbies.\nYou may find something interesting from the perspective of a college student inside...",
+        "image": "https://howling-blog-uploads.s3.ap-southeast-1.amazonaws.com/2022/1/16/chrome_1XM84Gpm5p.png",
+        "link": "https://blog.howlingmoon.dev"
+    },
+    {
+        "title": "Wangy Generator",
+        "subtitle": "Golang, Svelte, and MongoDb",
+        "description": "Probably the very thing that can depict how wild internet could be.\nInside lies various templates of copypasta, whether it's normal, weird, or outright cursed. Comes with fields to fill out your wildest imaginations and also editor to add new templates easily",
+        "image": "https://howling-blog-uploads.s3.ap-southeast-1.amazonaws.com/2022/1/16/chrome_TLT1RsbVST.png",
+        "link": "https://wangy.howlingmoon.dev"
+    }
+]
