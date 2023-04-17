@@ -1,5 +1,40 @@
 [
     {
+        "title": "DevOps",
+        "description": "Working and maintaining servers are my daily activities. I have experience in working with various DevOps activities, from application level to infrastructure level.",
+        "sections": [
+            {
+                "title": "Managing Applications and Deployments",
+                "items": [
+                    "Managing CI/CD pipelines through GitLab, GitHub, and Buddy",
+                    "Applying monitoring tasks in apps deployed on Linux",
+                    "Automating tasks using BASH scripts",
+                    "Containerization through Docker"
+                ]
+            },
+            {
+                "title": "Managing Infrastructures",
+                "items": [
+                    "General server management in Linux environment",
+                    "DNS Records Management",
+                    "Automating infrastructure changes using Terraform",
+                    "Managing deployment, access, and automation for Kubernetes-related job",
+                    "Authoring full-stack web app, deployed in serverless environment"
+                ]
+            },
+            {
+                "title": "Working with Web Services",
+                "items": [
+                    "Certification on \"Advanced Architecting on AWS\", received on 21 December 2022",
+                    "Certification on \"Architecting on AWS\", received on 4 June, 2021",
+                    "Certification on \"Developing on AWS\", received on 16 June, 2021",
+                    "Certification on \"Advanced Developing on AWS\", received on 28 July, 2021",
+                    "Experience on Azure, GCP, DigitalOcean, Vultr, and Hetzner Cloud Services"
+                ]
+            }
+        ]
+    },
+    {
         "title": "Web Development",
         "description": "Started as a bot developer, I constantly expanding my skillset both in backend development and frontend development. Here are several of tech stacks I excel at.",
         "sections": [
@@ -18,49 +53,15 @@
                 "items": [
                     "Express.js",
                     "Next.js",
-                    "Golang (Mux)",
-                    "Python (Flask)",
+                    "Golang",
+                    "Python",
                     "Java",
                     "PHP"
                 ]
             }
         ]
     },
-    {
-        "title": "DevOps",
-        "description": "Working and maintaining servers are my daily activities. I have experience in working with various DevOps activities, from application level to infrastructure level.",
-        "sections": [
-            {
-                "title": "Managing Applications and Deployments",
-                "items": [
-                    "Managing CI/CD pipelines through GitLab, GitHub, and Buddy",
-                    "Applying monitoring tasks in apps deployed on Linux",
-                    "Automating tasks using BASH scripts",
-                    "Containerization through Docker"
-                ]
-            },
-            {
-                "title": "Managing Infrastructures",
-                "items": [
-                    "Load Balancing and Reverse-Proxy using NGINX",
-                    "DNS Records Management",
-                    "Automating infrastructure changes using Terraform",
-                    "Deploying applications to Kubernetes",
-                    "Architecting Kubernetes deployments using Helm"
-                ]
-            },
-            {
-                "title": "Working with Web Services",
-                "items": [
-                    "Certification on \"Architecting on AWS\", received on 4 June, 2021",
-                    "Certification on \"Developing on AWS\", received on 16 June, 2021",
-                    "Certification on \"Advanced Developing on AWS\", received on 28 July, 2021",
-                    "Basic Knowledge on Azure Web Services",
-                    "DigitalOcean, Vultr, and others..."
-                ]
-            }
-        ]
-    },
+
     {
         "title": "Computer Graphics",
         "description": "I have great interest in working with computer graphics and have big interest of being involved in the industry. My experiences spans from programming field to content creation using various softwares",
@@ -96,7 +97,6 @@
                     "Proficiency in common Deep Learning, Machine Learning, and Artifical Intelligence tasks"
                 ]
             }
-
         ]
     },
     {
@@ -106,13 +106,11 @@
             {
                 "title": "Past Experiences",
                 "items": [
-                   "Proficiency in working with Unity to create 2D and 3D games",
-                   "Applying widely used alrogithms for optimization",
-                   "Working with shaders and writing shaders using GLSL or HLSL"
-
+                    "Proficiency in working with Unity to create 2D and 3D games",
+                    "Applying widely used alrogithms for optimization",
+                    "Working with shaders and writing shaders using GLSL or HLSL"
                 ]
             }
-
         ]
     },
     {
