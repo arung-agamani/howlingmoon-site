@@ -1,28 +1,29 @@
 [
-  {
-    "title": "Howling Blog",
-    "subtitle": "Next.js and MongoDB",
-    "description": "A personal blog built on top of Next.js. It has it's own CMS, dashboard page, and many more features!",
-    "image": "https://howling-blog-uploads.s3.ap-southeast-1.amazonaws.com/2022/1/16/chrome_1XM84Gpm5p.png",
-    "link": "https://blog.howlingmoon.dev"
-  },
-  {
-    "title": "Izuna Discord Bot",
-    "subtitle": "Fastify, discord.js, Sapphire Framework",
-    "description": "A Discord Bot to fulfils my daily hobby activities. Able to play music, query some information from VNDB.org, assign custom emoji-like tags, and other fun activities.",
-    "image": "https://howling-blog-uploads.s3.ap-southeast-1.amazonaws.com/2023/4/17/chrome_7N0wZZ1QI1.png",
-    "link": "https://izuna.howlingmoon.dev"
-  },
-  {
-    "title": "YTDL-Izuna",
-    "subtitle": "Python, Svelte.js, AWS Lambda",
-    "description": "Ever wanted to download Youtube videos but just the audio part only? Tired of getting ads and not-so-straightforward user experience in other websites? Fret no more! as YTDL-Izuna is just here to deliver the fastest, most straightforward, and almost no restriction* on downloads",
-    "image": "https://howling-blog-uploads.s3.ap-southeast-1.amazonaws.com/2022/1/17/chrome_7uDI5CvmfN.png",
-    "link": "https://ytdl.howlingmoon.dev"
-  },
-  {
-    "title": "Mitsukeru!",
-    "subtitle": "Electron.js, Express.js, React and Material UI",
-    "description": "An Inventory Management System specifically designed for Lost and Found department in Comic Frontier. An offline-first application that is meant to work locally with options to synchronize."
-  }
+    {
+        "title": "Howling Blog",
+        "subtitle": "Next.js and MongoDB",
+        "description": "A personal blog built on top of Next.js. It has it's own CMS, dashboard page, and many more features!",
+        "image": "https://howling-blog-uploads.s3.ap-southeast-1.amazonaws.com/chrome_ra8Og1kOoI.png",
+        "link": "https://blog.howlingmoon.dev"
+    },
+    {
+        "title": "Izuna Discord Bot",
+        "subtitle": "Fastify, discord.js, Sapphire Framework",
+        "description": "A Discord Bot to fulfils my daily hobby activities. Able to play music, query some information from VNDB.org, assign custom emoji-like tags, and other fun activities.",
+        "image": "https://howling-blog-uploads.s3.ap-southeast-1.amazonaws.com/2023/4/17/chrome_7N0wZZ1QI1.png",
+        "link": "https://izuna.howlingmoon.dev"
+    },
+    {
+        "title": "YTDL-Izuna",
+        "subtitle": "Python, Svelte.js, AWS Lambda",
+        "description": "Ever wanted to download Youtube videos but just the audio part only? Tired of getting ads and not-so-straightforward user experience in other websites? Fret no more! as YTDL-Izuna is just here to deliver the fastest, most straightforward, and almost no restriction* on downloads",
+        "image": "https://howling-blog-uploads.s3.ap-southeast-1.amazonaws.com/chrome_eMupcHj4si.png",
+        "link": "https://ytdl.howlingmoon.dev"
+    },
+    {
+        "title": "Mitsukeru!",
+        "subtitle": "Electron.js, Express.js, React and Material UI",
+        "description": "An Inventory Management System specifically designed for Lost and Found department in Comic Frontier. An offline-first application that is meant to work locally with options to synchronize.",
+        "image": "https://howling-blog-uploads.s3.ap-southeast-1.amazonaws.com/mitsukeru_CF4apY8V3v.png"
+    }
 ]

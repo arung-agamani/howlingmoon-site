@@ -3,27 +3,28 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import type { Container, Engine } from "tsparticles-engine";
 
-import About from "./components/pages/About";
+import QuoteHero from "./components/pages/QuoteHero";
 import Contacts from "./components/pages/Contacts";
 import Experiences from "./components/pages/Experiences";
 import Projects from "./components/pages/Projects";
+import Hero from "./components/pages/Hero";
 
 function App() {
-  // const particlesInit = useCallback(async (engine: Engine) => {
-  //     console.log(engine);
-  //     await loadFull(engine);
-  // }, []);
+    const particlesInit = useCallback(async (engine: Engine) => {
+        console.log(engine);
+        await loadFull(engine);
+    }, []);
 
-  // const particlesLoaded = useCallback(
-  //     async (container: Container | undefined) => {
-  //         await console.log(container);
-  //     },
-  //     []
-  // );
+    const particlesLoaded = useCallback(
+        async (container: Container | undefined) => {
+            await console.log(container);
+        },
+        []
+    );
 
-  return (
-    <div className="text-gray-400 bg-gray-900 bg-opacity-100 pb-32">
-      {/* <Particles
+    return (
+        <div className="text-gray-400 bg-gray-900 bg-opacity-5 pb-32">
+            <Particles
                 className="absolute -z-10"
                 id="tsparticles"
                 init={particlesInit}
@@ -65,13 +66,14 @@ function App() {
                         },
                     },
                 }}
-            /> */}
-      <About />
-      <Projects />
-      <Experiences />
-      <Contacts />
-    </div>
-  );
+            />
+            <Hero />
+            <Projects />
+            <Experiences />
+            <QuoteHero />
+            <Contacts />
+        </div>
+    );
 }
 
 export default App;
