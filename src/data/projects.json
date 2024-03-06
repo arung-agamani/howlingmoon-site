@@ -29,7 +29,7 @@
     {
         "title": "SIASN-BAPEK",
         "subtitle": "React.js, Material UI, Golang, Kubernetes",
-        "description": "A project from Indonesian National Civil Service Agency. A of web application for civil servant data administration.",
+        "description": "A project from Indonesian National Civil Service Agency. A of web application for civil servant data administration.<br/><br/>Frontend uses React.js with Material UI for UI component, Tailwind CSS for CSS utility library. Backend uses Golang and deployed on Kubernetes",
         "link": "https://bapek-siasn.bkn.go.id/",
         "image": "https://howling-blog-uploads.s3.ap-southeast-1.amazonaws.com/chrome_Po0xOFTy4a.png"
     }

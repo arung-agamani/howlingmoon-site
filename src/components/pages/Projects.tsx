@@ -49,9 +49,12 @@ const Projects: React.FC = () => {
                                         <h1 className="text-lg font-medium text-white mb-3">
                                             {project.title}
                                         </h1>
-                                        <p className="leading-relaxed">
-                                            {project.description}
-                                        </p>
+                                        <p
+                                            className="leading-relaxed"
+                                            dangerouslySetInnerHTML={{
+                                                __html: project.description,
+                                            }}
+                                        />
                                     </div>
                                 </div>
                             </a>

@@ -4,7 +4,7 @@ const Hero: React.FC = () => {
             <video
                 autoPlay={true}
                 loop
-                className="absolute -z-[5] w-screen hidden lg:block"
+                className="absolute -z-[5] w-screen hidden lg:block object-center object-cover"
                 muted
             >
                 <source
@@ -14,9 +14,6 @@ const Hero: React.FC = () => {
             </video>
             <div className="container mx-auto flex flex-col justify-center  lg:py-40 h-screen pt-40 ">
                 <div className="lg:flex-grow md:items-start md:text-left mb-16 md:mb-0 text-center flex flex-col h-full self-center justify-center">
-                    {/* <h1 className="sm:text-6xl mb-4 font-medium text-white text-center self-center">
-                        Howlingmoon Dev.
-                    </h1> */}
                     <span className="hidden lg:block">
                         <br />
                         <br />
