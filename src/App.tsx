@@ -8,6 +8,7 @@ import Contacts from "./components/pages/Contacts";
 import Experiences from "./components/pages/Experiences";
 import Projects from "./components/pages/Projects";
 import Hero from "./components/pages/Hero";
+import Certificates from "./components/pages/Certifications";
 
 function App() {
     const particlesInit = useCallback(async (engine: Engine) => {
@@ -70,6 +71,7 @@ function App() {
             <Hero />
             <Projects />
             <Experiences />
+            <Certificates />
             <QuoteHero />
             <Contacts />
         </div>

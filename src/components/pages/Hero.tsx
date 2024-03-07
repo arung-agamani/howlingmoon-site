@@ -4,7 +4,7 @@ const Hero: React.FC = () => {
             <video
                 autoPlay={true}
                 loop
-                className="absolute -z-[5] w-screen hidden lg:block object-center object-cover"
+                className="absolute -z-[5] h-screen w-screen hidden lg:block object-center object-cover"
                 muted
             >
                 <source

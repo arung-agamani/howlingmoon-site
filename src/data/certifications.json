@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Architecting on AWS",
+        "issuer": "AWS Training & Certification",
+        "type": "Technical Skills",
+        "date": "4th June, 2021",
+        "description": "Training on how to design good cloud architecture in AWS. Topics covered : AWS Well-architected Framework, AWS Services and Infrastructure, common toolkits (AWS CLI), networking fundamentals (VPC, Routing, Security Groups, etc.), Compute Instances (EC2, Lambda), Storage, Databases, Observability. More advanced topics also includes the serverless deployment in AWS (API Gateway, Events with SQS or SNS, and hands-on creating serverless architecture), Edge services, and Risk management (disaster recovery and backups)."
+    },
+    {
+        "name": "Advanced Architecting on AWS",
+        "issuer": "AWS Training & Certification",
+        "type": "Technical Skills",
+        "date": "21st December, 2022",
+        "description": "Training on architectural design principles, multi-tier application architecture, data management, advanced networking, hybrid architectures, cost optimization, operational excellence, and security best practices for building complex and scalable solutions on the AWS platform."
+    },
+    {
+        "name": "Developing on AWS",
+        "issuer": "AWS Training & Certification",
+        "type": "Technical Skills",
+        "date": "16th June, 2021",
+        "description": "Training on essential skills for developing applications on the AWS platform, including setting up development environments, utilizing AWS SDKs and APIs, integrating AWS services into applications, and deploying applications on AWS infrastructure."
+    },
+    {
+        "name": "Advanced Developing on AWS",
+        "issuer": "AWS Training & Certification",
+        "type": "Technical Skills",
+        "date": "28th July, 2021",
+        "description": "Training on advanced development techniques in AWS, such as optimizing application performance, implementing security features, leveraging serverless computing, and integrating advanced AWS services like Amazon DynamoDB, AWS Lambda, Amazon SQS, and Amazon SNS into applications"
+    },
+    {
+        "name": "Japanese Language Proficiency Test (JLPT) N3",
+        "issuer": "Japan Foundation",
+        "type": "Language Skills",
+        "date": "December 2023",
+        "description": "Passed with score 108"
+    }
+]
