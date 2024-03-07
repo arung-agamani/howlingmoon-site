@@ -17,14 +17,13 @@ const Certificates: React.FC = () => {
                         </p>
                     </div>
                 </ScrollAnimation>
-                <div className="grid grid-cols-1 lg:grid-cols-2">
+                <div className="grid grid-cols-1">
                     {certificateData.map((project, index) => (
                         <ScrollAnimation
                             animateIn="animate__fadeIn"
                             offset={300}
                             animateOnce
                             key={index}
-                            className="lg:last:col-span-2"
                         >
                             <div className="flex flex-col sm:flex-row h-full">
                                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900">
