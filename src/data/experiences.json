@@ -1,25 +1,31 @@
 [
     {
-        "title": "DevOps",
+        "title": "DevOps, SRE, and Cloud Infrastructure",
         "description": "Working and maintaining servers are my daily activities. I have experience in working with various DevOps activities, from application level to infrastructure level.",
         "sections": [
             {
                 "title": "Managing Applications and Deployments",
                 "items": [
-                    "Managing CI/CD pipelines through GitLab, GitHub, and Buddy",
-                    "Applying monitoring tasks in apps deployed on Linux",
-                    "Automating tasks using BASH scripts",
-                    "Containerization through Docker"
+                    "Managing CI/CD pipelines through GitLab, GitHub, CircleCI, and Buddy",
+                    "Application Performance Monitoring (APM) and Observability setup with Datadog and Grafana",
+                    "Task automation using BASH scripts and Ansible Playbooks",
+                    "Containerization: Docker, Docker Compose, and its alternatives (Podman, OCI-compliant container runtime)"
                 ]
             },
             {
                 "title": "Managing Infrastructures",
                 "items": [
-                    "General server management in Linux environment",
-                    "DNS Records Management",
+                    "Creating solutions for Cloud Infrastructure (Planning, Implementation, Maintaining)",
+                    "Infrastructure Migration between Regions",
+                    "Infrastructure-as-Code: Terraform, Ansible, Pulumi",
+                    "Database Migration between SQL and NoSQL",
+                    "Vast experience working with Linux environment (Debian-based, RHEL, Alpine)",
+                    "DNS Management",
                     "Automating infrastructure changes using Terraform",
-                    "Managing deployment, access, and automation for Kubernetes-related job",
-                    "Authoring full-stack web app, deployed in serverless environment"
+                    "Kubernetes Administration through managed service (EKS, GKE) or on-premise (kubeadm)",
+                    "Kubernetes Security (Native RBAC, AWS IRSA, GKE Workload Identity)",
+                    "Kubernetes Automation (Helm chart authoring, GitOps deployment with ArgoCD)",
+                    "Serverless Infrastructures in AWS, GCP, or others (Vercel, Cloudflare Workers)"
                 ]
             },
             {
@@ -29,7 +35,8 @@
                     "Certification on \"Architecting on AWS\", received on 4 June, 2021",
                     "Certification on \"Developing on AWS\", received on 16 June, 2021",
                     "Certification on \"Advanced Developing on AWS\", received on 28 July, 2021",
-                    "Experience on Azure, GCP, DigitalOcean, Vultr, and Hetzner Cloud Services"
+                    "Experience on GCP, DigitalOcean, Vultr, and Hetzner Cloud Services",
+                    "Experience on PaaS solutions : Cloudflare, Vercel"
                 ]
             }
         ]
@@ -43,21 +50,18 @@
                 "items": [
                     "React.js",
                     "Svelte.js",
-                    "EJS",
                     "TailwindCSS",
-                    "Proficiency with several build tools: Webpack, Vite, Rollup"
+                    "Material UI",
+                    "Build tools: Webpack, Vite, Rollup"
                 ]
             },
             {
                 "title": "Back End",
-                "items": [
-                    "Express.js",
-                    "Next.js",
-                    "Golang",
-                    "Python",
-                    "Java",
-                    "PHP"
-                ]
+                "items": ["Express.js", "Next.js", "Golang", "Python", "Rust"]
+            },
+            {
+                "title": "Fullstack and Others",
+                "items": ["Electron.js", "WASM Integration", "Websockets"]
             }
         ]
     },
@@ -69,7 +73,8 @@
             {
                 "title": "Programming and Application Development",
                 "items": [
-                    "WebGL-based Prototype 2D CAD-tools, written in pure vanilla Javascript",
+                    "WebGPU and WGSL",
+                    "WebGL-based Prototype 2D CAD-tools",
                     "Accelerated Raytracer using C++ and CUDA SDK"
                 ]
             },

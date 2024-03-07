@@ -1,5 +1,12 @@
 [
     {
+        "name": "Japanese Language Proficiency Test (JLPT) N3",
+        "issuer": "Japan Foundation",
+        "type": "Language Skills",
+        "date": "December 2023",
+        "description": "Passed with score 108"
+    },
+    {
         "name": "Architecting on AWS",
         "issuer": "AWS Training & Certification",
         "type": "Technical Skills",
@@ -26,12 +33,5 @@
         "type": "Technical Skills",
         "date": "28th July, 2021",
         "description": "Training on advanced development techniques in AWS, such as optimizing application performance, implementing security features, leveraging serverless computing, and integrating advanced AWS services like Amazon DynamoDB, AWS Lambda, Amazon SQS, and Amazon SNS into applications"
-    },
-    {
-        "name": "Japanese Language Proficiency Test (JLPT) N3",
-        "issuer": "Japan Foundation",
-        "type": "Language Skills",
-        "date": "December 2023",
-        "description": "Passed with score 108"
     }
 ]

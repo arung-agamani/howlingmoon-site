@@ -23,7 +23,7 @@ const Projects: React.FC = () => {
                         </a>
                     </div>
                 </ScrollAnimation>
-                <div className="flex flex-wrap -m-4">
+                <div className="flex flex-wrap">
                     {projectsData.map((project, index) => (
                         <ScrollAnimation
                             animateIn="animate__fadeIn"
@@ -40,9 +40,9 @@ const Projects: React.FC = () => {
                                     <img
                                         src={project.image}
                                         alt="project image gallery"
-                                        className="relative inset-0 w-100 sm:w-1/2 object-cover object-center aspect-square xs:aspect-video"
+                                        className="relative inset-0 w-full sm:w-1/2 object-contain object-center aspect-square xs:aspect-video border-4 border-gray-800"
                                     />
-                                    <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900">
+                                    <div className="px-8 py-10 relative z-10 border-4 border-gray-800 bg-gray-900">
                                         <h2 className="tracking-widest text-sm font-medium text-green-400 mb-1">
                                             {project.subtitle}
                                         </h2>
@@ -50,7 +50,7 @@ const Projects: React.FC = () => {
                                             {project.title}
                                         </h1>
                                         <p
-                                            className="leading-relaxed"
+                                            className="leading-relaxed text-wrap"
                                             dangerouslySetInnerHTML={{
                                                 __html: project.description,
                                             }}
