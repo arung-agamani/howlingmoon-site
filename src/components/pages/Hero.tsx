@@ -1,3 +1,5 @@
+import { Link } from "@tanstack/react-router";
+
 const Hero: React.FC = () => {
     return (
         <>
@@ -46,7 +48,9 @@ const Hero: React.FC = () => {
                         <span className="hidden lg:block">
                             <br />
                             <br />
-                            This motion graphics is made by me also :D
+                            <Link to="/playground">
+                                This motion graphics is made by me also :D
+                            </Link>
                         </span>
                     </p>
                 </div>
