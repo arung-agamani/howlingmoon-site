@@ -1,9 +1,9 @@
-import { createFileRoute, createLazyFileRoute } from "@tanstack/react-router";
+import { createLazyFileRoute } from "@tanstack/react-router";
 
-import { useCallback } from "react";
-import Particles from "react-tsparticles";
+import { useCallback, useEffect, useState } from "react";
+import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadFull } from "tsparticles";
-import type { Container, Engine } from "tsparticles-engine";
+import type { Container } from "@tsparticles/engine";
 
 import QuoteHero from "../components/pages/QuoteHero";
 import Contacts from "../components/pages/Contacts";
@@ -13,10 +13,7 @@ import Hero from "../components/pages/Hero";
 import Certificates from "../components/pages/Certifications";
 
 function Index() {
-    const particlesInit = useCallback(async (engine: Engine) => {
-        console.log(engine);
-        await loadFull(engine);
-    }, []);
+    const [init, setInit] = useState(false);
 
     const particlesLoaded = useCallback(
         async (container: Container | undefined) => {
@@ -25,13 +22,20 @@ function Index() {
         []
     );
 
+    useEffect(() => {
+        initParticlesEngine(async (engine) => {
+            await loadFull(engine);
+        }).then(() => {
+            setInit(true);
+        });
+    }, []);
+
     return (
         <div className="text-gray-400 bg-gray-900 bg-opacity-5 pb-32">
             <Particles
                 className="absolute -z-10"
                 id="tsparticles"
-                init={particlesInit}
-                loaded={particlesLoaded}
+                particlesLoaded={particlesLoaded}
                 options={{
                     background: {
                         color: {
@@ -54,8 +58,7 @@ function Index() {
                             type: "circle",
                         },
                         size: {
-                            random: false,
-                            value: 5,
+                            value: { min: 1, max: 5 },
                         },
                         move: {
                             direction: "none",
