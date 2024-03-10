@@ -40,6 +40,9 @@ dependencies:
   three:
     specifier: ^0.162.0
     version: 0.162.0
+  three-stdlib:
+    specifier: ^2.29.5
+    version: 2.29.5(three@0.162.0)
   tsparticles:
     specifier: ^3.3.0
     version: 3.3.0
