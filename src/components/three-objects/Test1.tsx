@@ -7,6 +7,8 @@ import * as THREE from "three";
 import React, { useRef } from "react";
 import { SoftShadows, useGLTF } from "@react-three/drei";
 import { GLTF } from "three-stdlib";
+import { useFrame } from "@react-three/fiber";
+import { Mesh } from "three";
 
 type GLTFResult = GLTF & {
     nodes: {
@@ -26,7 +28,11 @@ type ContextType = Record<
 >;
 
 export function Model(props: JSX.IntrinsicElements["group"]) {
+    const ballRef = useRef<Mesh>(null!);
     const { nodes, materials } = useGLTF("/test1.glb") as GLTFResult;
+    useFrame((state, delta) => {
+        ballRef.current.rotation.y += delta;
+    });
     return (
         <group {...props} dispose={null}>
             <mesh
@@ -34,6 +40,7 @@ export function Model(props: JSX.IntrinsicElements["group"]) {
                 material={materials["Material.001"]}
                 scale={4.981}
                 receiveShadow
+                castShadow
             ></mesh>
             <mesh
                 geometry={nodes.Icosphere.geometry}
@@ -41,7 +48,11 @@ export function Model(props: JSX.IntrinsicElements["group"]) {
                 position={[0, 3.644, 0]}
                 castShadow
                 receiveShadow
+                ref={ballRef}
             ></mesh>
+            <mesh rotation={[0, 0, 0]}>
+                <planeGeometry />
+            </mesh>
         </group>
     );
 }

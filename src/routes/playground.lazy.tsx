@@ -6,6 +6,7 @@ import { Canvas } from "@react-three/fiber";
 import "./playground.css";
 import { Scroll, ScrollControls } from "@react-three/drei";
 import { Model as CustomModel } from "../components/three-objects/Test1";
+import { Vector2 } from "three";
 
 const Playground = () => {
     return (
@@ -20,16 +21,10 @@ const Playground = () => {
                         <ambientLight intensity={Math.PI / 2} />
                         <spotLight
                             position={[10, 10, 10]}
-                            angle={0.15}
-                            penumbra={1}
-                            decay={0}
-                            intensity={Math.PI}
-                            castShadow
-                        />
-                        <pointLight
-                            position={[-10, -10, -10]}
-                            decay={0}
-                            intensity={Math.PI}
+                            angle={0.3}
+                            penumbra={2}
+                            decay={0.1}
+                            intensity={10}
                             castShadow
                         />
                         <CustomModel position={[0, -4, 0]} />
