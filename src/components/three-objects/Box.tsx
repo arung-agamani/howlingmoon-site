@@ -11,9 +11,6 @@ export default function Box(props: Props) {
     const [hovered, hover] = useState(false);
     const [clicked, click] = useState(false);
     useFrame((state, delta) => {
-        // if (props.rotateDir === "x") {
-        //     ref.current.rotation.x += delta
-        // }
         ref.current.rotation[props.rotateDir] += delta;
     });
     return (
