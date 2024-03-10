@@ -6,7 +6,6 @@ import {
 } from "@react-three/fiber";
 import { useRef } from "react";
 import { Mesh } from "three";
-
 interface Props extends MeshProps {
     torusProps?: TorusGeometryProps;
     materialProps?: MeshToonMaterialProps;
