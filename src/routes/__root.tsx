@@ -1,5 +1,5 @@
+import { lazy, Suspense } from "react";
 import { createRootRoute, Link, Outlet } from "@tanstack/react-router";
-import { TanStackRouterDevtools } from "@tanstack/router-devtools";
 import {
     NavigationMenu,
     NavigationMenuContent,
@@ -8,6 +8,15 @@ import {
     NavigationMenuList,
     NavigationMenuTrigger,
 } from "components/ui/navigation-menu";
+
+const TanStackRouterDevtools =
+    process.env.NODE_ENV === "production"
+        ? () => null
+        : lazy(() =>
+              import("@tanstack/router-devtools").then((res) => ({
+                  default: res.TanStackRouterDevtools,
+              }))
+          );
 
 // TODO: work on this. Also navigation menu is set to hidden using class, so just a note here.
 export const Route = createRootRoute({
@@ -33,7 +42,9 @@ export const Route = createRootRoute({
                 </NavigationMenuList>
             </NavigationMenu>
             <Outlet />
-            <TanStackRouterDevtools />
+            <Suspense>
+                <TanStackRouterDevtools />
+            </Suspense>
         </>
     ),
 });
