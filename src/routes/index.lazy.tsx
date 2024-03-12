@@ -10,7 +10,8 @@ import Contacts from "../components/pages/Contacts";
 import Experiences from "../components/pages/Experiences";
 import Projects from "../components/pages/Projects";
 import Hero from "../components/pages/Hero";
-import Certificates from "../components/pages/Certifications";
+// import Certificates from "../components/pages/Certifications";
+import Certificates from "components/pages/Certifications";
 
 function Index() {
     const [init, setInit] = useState(false);
