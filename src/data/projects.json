@@ -21,13 +21,6 @@
         "link": "https://ytdl.howlingmoon.dev"
     },
     {
-        "title": "Mitsukeru!",
-        "subtitle": "Electron.js, Express.js, React and Material UI",
-        "description": "An Inventory Management System specifically designed for Lost and Found department in Comic Frontier. An offline-first application that is meant to work locally with options to synchronize.<br/><br/>Currently on development with target to add companion app based on React Native for easier data collecting.",
-        "image": "https://howling-blog-uploads.s3.ap-southeast-1.amazonaws.com/mitsukeru_CF4apY8V3v.png",
-        "link": "https://github.com/arung-agamani/mitsukeru"
-    },
-    {
         "title": "SIASN-BAPEK",
         "subtitle": "React.js, Material UI, Golang, Kubernetes",
         "description": "A project from Indonesian National Civil Service Agency. A of web application for civil servant data administration.<br/><br/>Frontend uses React.js with Material UI for UI component, Tailwind CSS for CSS utility library. Backend uses Golang and deployed on Kubernetes",
