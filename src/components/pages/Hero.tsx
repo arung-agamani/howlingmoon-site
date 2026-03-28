@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
                 muted
             >
                 <source
-                    src="https://howling-blog-uploads.s3.ap-southeast-1.amazonaws.com/test-web.mp4"
+                    src="https://cdn.howlingmoon.dev/test-web.mp4"
                     type="video/mp4"
                 />
             </video>
