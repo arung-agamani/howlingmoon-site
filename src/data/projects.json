@@ -7,24 +7,17 @@
         "link": "https://blog.howlingmoon.dev"
     },
     {
+        "title": "sirkel.id",
+        "subtitle": "Community-driven Doujin Event Portal",
+        "description": "A web portal for doujin circle members and event organizers to host and participate in doujin events in Indonesia. It has features like event listing, circle registration, and many more!",
+        "image": "https://cdn.howlingmoon.dev/sirkel.id/bTP1qG9yRm.png",
+        "link": "https://sirkel.id"
+    },
+    {
         "title": "Izuna Discord Bot",
         "subtitle": "Fastify, discord.js, Sapphire Framework",
         "description": "A Discord Bot to fulfils my daily hobby activities. Able to play music, query some information from VNDB.org, assign custom emoji-like tags, and other fun activities.",
         "image": "https://howling-blog-uploads.s3.ap-southeast-1.amazonaws.com/2023/4/17/chrome_7N0wZZ1QI1.png",
         "link": "https://izuna.howlingmoon.dev"
-    },
-    {
-        "title": "YTDL-Izuna",
-        "subtitle": "Python, Svelte.js, AWS Lambda",
-        "description": "Ever wanted to download Youtube videos but just the audio part only? Tired of getting ads and not-so-straightforward user experience in other websites? Fret no more! as YTDL-Izuna is just here to deliver the fastest, most straightforward, and almost no restriction* on downloads<br/><br/>Want to try? Use this signup code!<br/><span class='text-xs'>IUXHZRLUNEGFMRAESWCZLJQGVWDBETCR</span>",
-        "image": "https://howling-blog-uploads.s3.ap-southeast-1.amazonaws.com/chrome_eMupcHj4si.png",
-        "link": "https://ytdl.howlingmoon.dev"
-    },
-    {
-        "title": "SIASN-BAPEK",
-        "subtitle": "React.js, Material UI, Golang, Kubernetes",
-        "description": "A project from Indonesian National Civil Service Agency. A of web application for civil servant data administration.<br/><br/>Frontend uses React.js with Material UI for UI component, Tailwind CSS for CSS utility library. Backend uses Golang and deployed on Kubernetes",
-        "link": "https://bapek-siasn.bkn.go.id/",
-        "image": "https://howling-blog-uploads.s3.ap-southeast-1.amazonaws.com/chrome_Po0xOFTy4a.png"
     }
 ]
