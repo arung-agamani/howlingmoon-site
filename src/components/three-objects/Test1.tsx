@@ -4,9 +4,9 @@ Command: npx gltfjsx@6.2.16 public/test1.glb --types
 */
 
 import React, { useRef } from "react";
-import { useGLTF } from "@react-three/drei/core/useGLTF";
+import { useGLTF } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
-import { GLTF } from "three/examples/jsm/loaders/GLTFLoader";
+import type { GLTF } from "three-stdlib";
 import { Mesh, MeshStandardMaterial } from "three";
 
 type GLTFResult = GLTF & {

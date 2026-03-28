@@ -1,13 +1,5 @@
 import { lazy, Suspense } from "react";
 import { createRootRoute, Link, Outlet } from "@tanstack/react-router";
-import {
-    NavigationMenu,
-    NavigationMenuContent,
-    NavigationMenuItem,
-    NavigationMenuLink,
-    NavigationMenuList,
-    NavigationMenuTrigger,
-} from "components/ui/navigation-menu";
 
 const TanStackRouterDevtools =
     process.env.NODE_ENV === "production"
@@ -18,29 +10,39 @@ const TanStackRouterDevtools =
               }))
           );
 
-// TODO: work on this. Also navigation menu is set to hidden using class, so just a note here.
 export const Route = createRootRoute({
     component: () => (
         <>
-            <NavigationMenu className="fixed top-0 left-0 container max-w-screen-2xl w-screen text-white z-50 hidden">
-                <NavigationMenuList className="w-full justify-around">
-                    <NavigationMenuItem>
-                        <NavigationMenuLink>
-                            <Link to="/">Home</Link>
-                        </NavigationMenuLink>
-                    </NavigationMenuItem>
-                    <NavigationMenuItem>
-                        <NavigationMenuLink>
-                            <Link to="/projects">Projects</Link>
-                        </NavigationMenuLink>
-                    </NavigationMenuItem>
-                    <NavigationMenuItem>
-                        <NavigationMenuLink>
-                            <Link to="/playground">Playground</Link>
-                        </NavigationMenuLink>
-                    </NavigationMenuItem>
-                </NavigationMenuList>
-            </NavigationMenu>
+            <nav className="fixed top-0 left-0 w-full z-50 bg-gray-900/80 backdrop-blur-sm border-b border-gray-800">
+                <div className="container mx-auto px-4 flex items-center justify-between h-14">
+                    <Link
+                        to="/"
+                        className="text-white font-semibold text-lg hover:text-green-400 transition-colors"
+                    >
+                        Howling Moon
+                    </Link>
+                    <div className="flex items-center gap-6">
+                        <Link
+                            to="/"
+                            className="text-gray-300 hover:text-white transition-colors text-sm font-medium [&.active]:text-green-400"
+                        >
+                            Home
+                        </Link>
+                        <Link
+                            to="/toolbox"
+                            className="text-gray-300 hover:text-white transition-colors text-sm font-medium [&.active]:text-green-400"
+                        >
+                            Toolbox
+                        </Link>
+                        <Link
+                            to="/playground"
+                            className="text-gray-300 hover:text-white transition-colors text-sm font-medium [&.active]:text-green-400"
+                        >
+                            Playground
+                        </Link>
+                    </div>
+                </div>
+            </nav>
             <Outlet />
             <Suspense>
                 <TanStackRouterDevtools />

@@ -10,15 +10,14 @@ import Contacts from "../components/pages/Contacts";
 import Experiences from "../components/pages/Experiences";
 import Projects from "../components/pages/Projects";
 import Hero from "../components/pages/Hero";
-// import Certificates from "../components/pages/Certifications";
 import Certificates from "components/pages/Certifications";
 
 function Index() {
     const [init, setInit] = useState(false);
 
     const particlesLoaded = useCallback(
-        async (container: Container | undefined) => {
-            await console.log(container);
+        async (_container: Container | undefined) => {
+            // particles loaded
         },
         []
     );
@@ -32,7 +31,7 @@ function Index() {
     }, []);
 
     return (
-        <div className="text-gray-400 bg-gray-900 bg-opacity-5 pb-32">
+        <div className="text-gray-400 bg-gray-900/5 pb-32">
             <Particles
                 className="absolute -z-10"
                 id="tsparticles"

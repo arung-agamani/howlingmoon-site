@@ -14,26 +14,9 @@ const Hero: React.FC = () => {
                     type="video/mp4"
                 />
             </video>
-            <div className="container mx-auto flex flex-col justify-center  lg:py-40 h-screen pt-40 ">
+            <div className="container mx-auto flex flex-col justify-center lg:py-40 h-screen pt-40">
                 <div className="lg:flex-grow md:items-start md:text-left mb-16 md:mb-0 text-center flex flex-col h-full self-center justify-center">
-                    <span className="hidden lg:block">
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                    </span>
+                    <div className="hidden lg:block mt-96" />
                     <p className="text-2xl text-center self-center text-white lg:text-black">
                         - Howling Dev, Arung Agamani -
                     </p>
@@ -45,9 +28,7 @@ const Hero: React.FC = () => {
                         In this place, you can find collections of my projects,
                         my ambitions, and what can be used to determine your
                         view towards the author.
-                        <span className="hidden lg:block">
-                            <br />
-                            <br />
+                        <span className="hidden lg:block mt-4">
                             <Link to="/playground">
                                 This motion graphics is made by me also :D
                             </Link>
