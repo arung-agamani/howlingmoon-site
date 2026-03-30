@@ -19,5 +19,12 @@
         "description": "A Discord Bot to fulfils my daily hobby activities. Able to play music, query some information from VNDB.org, assign custom emoji-like tags, and other fun activities.",
         "image": "https://howling-blog-uploads.s3.ap-southeast-1.amazonaws.com/2023/4/17/chrome_7N0wZZ1QI1.png",
         "link": "https://izuna.howlingmoon.dev"
+    },
+    {
+        "title": "Denpa Radio",
+        "subtitle": "Lite Personal Radio Station",
+        "description": "Radio station for personal usage. Built uisng Svelte.js and Golang",
+        "image": "https://cdn.howlingmoon.dev/sirkel.id/denpa-radio.png",
+        "link": "https://denpa.howlingmoon.dev"
     }
 ]
